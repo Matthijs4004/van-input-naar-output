@@ -26,6 +26,8 @@ print("Hoeveelheid large pizza's: ", hoeveelLarge)
 print("Hoeveelheid medium pizza's: ", hoeveelMedium)
 print("Hoeveelheid small pizza's: ", hoeveelSmall)
 
+# De berekening van het totaal bedrag wat de klant moet betalen
+
 bedrag = (hoeveelLarge * largePizza) + (hoeveelMedium * mediumPizza) + (hoeveelSmall * smallPizza)
 
 factuurtekst = "U heeft voor " + str(bedrag) + " aan pizza's besteld."
